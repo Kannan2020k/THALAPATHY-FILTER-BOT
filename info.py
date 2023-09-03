@@ -112,10 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://thalapathy-s8ws.onrender.com/".format(FQDN)
+    URL = "https://{}/".format(FQDN)
 else:
-    URL = "https://thalapathy-s8ws.onrender.com/".format(FQDN)
-
+    URL = "http://{}/".format(FQDN)
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
