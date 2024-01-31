@@ -25,7 +25,9 @@ youtube-search-python==1.4.6
 yt-dlp
 youtube-dl
 requests 
-  
+  
+ #---imdb---# 
+ cinemagoer==2023.5.1 
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
@@ -43,7 +45,6 @@ requests
  wget 
  pytz
  aiofiles
- dnspython==2.3.0
  ### googletrans==4.0.0-rc1 ###
 python-decouple
 ffmpeg-python>=0.2.0
@@ -54,7 +55,6 @@ apscheduler
 pyshorteners
 pyromod
 colorama
-openai==0.25.0
 
 
 
