@@ -1,4 +1,4 @@
-pyrogram>=2.0.30 
+pyrogram==2.0.106
  tgcrypto 
  pymongo[srv]==3.12.3 
  motor==2.5.1 
@@ -6,7 +6,7 @@ pyrogram>=2.0.30
  umongo==3.0.1 
  requests 
  bs4 
- git+https://github.com/Joelkb/cinemagoer 
+ git+https://github.com/Joelkb/cinemagoer
  shortzy 
  datetime 
  pytz 
@@ -27,7 +27,7 @@ youtube-dl
 requests 
   
  #---imdb---# 
- cinemagoer==2023.5.1 
+ cinemagoer==2023.10.22
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
@@ -55,7 +55,7 @@ apscheduler
 pyshorteners
 pyromod
 colorama
-
+dnspython==2.3.0
 
 
   
