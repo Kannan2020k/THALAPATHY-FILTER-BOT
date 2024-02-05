@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Professor")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Professor')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '62b1ec93449a6ac2f78d6d16e8cb76227951eac3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
